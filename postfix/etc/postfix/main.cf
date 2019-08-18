@@ -3,7 +3,7 @@ smtpd_banner = $myhostname ESMTP $mail_name
 myhostname = ip-172-31-2-97
 
 alias_maps =
-mydestination = symmetrical.com
+mydestination = ip-172-31-2-97 localhost.symmetrical.com localhost imap.symmetrical.com smtp.symmetrical.com
 relayhost =
 mailbox_size_limit =
 mynetworks = 127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
@@ -42,8 +42,8 @@ smtpd_tls_exclude_ciphers = aNULL, DES, 3DES, MD5, DES+MD5, RC4
 smtpd_tls_mandatory_protocols = !SSLv2, !SSLv3
 smtpd_tls_protocols = !SSLv2, !SSLv3
 
-smtpd_tls_cert_file=/etc/ssl/certs/smtp.symmetrical.at.crt
-smtpd_tls_key_file=/etc/ssl/private/smtp.symmetrical.at.key
+smtpd_tls_cert_file=/etc/ssl/certs/smtp.symmetrical.com.crt
+smtpd_tls_key_file=/etc/ssl/private/smtp.symmetrical.com.key
 smtpd_tls_CAfile = /etc/ssl/certs/ca.crt
 smtpd_tls_dh1024_param_file = /etc/ssl/dhparams.pem
 smtpd_tls_session_cache_database = btree:${data_directory}/smtpd_scache

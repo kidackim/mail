@@ -15,8 +15,8 @@ sed -i "s/ndb/$DB_NAME/g" /etc/dovecot/dovecot-*sql.conf.ext
 sed -i "s/usrname/$USER_NAME/g" /etc/dovecot/dovecot-*sql.conf.ext
 sed -i "s/passwd/$USER_PASSWD/g" /etc/dovecot/dovecot-*sql.conf.ext
 # Update domain
-sed -i "s/symmetrical.at/$DOMAIN/g" /etc/dovecot/conf.d/10-ssl.conf
-sed -i "s/symmetrical.at/$DOMAIN/g" /etc/dovecot/local.conf
+sed -i "s/symmetrical.com/$DOMAIN/g" /etc/dovecot/conf.d/10-ssl.conf
+sed -i "s/symmetrical.com/$DOMAIN/g" /etc/dovecot/local.conf
 
 # Run dovecot
 exec "$@"

@@ -22,10 +22,10 @@ O=Dovecot
 OU=IMAP server
 
 # Common Name (*.example.com is also possible)
-CN=imap.symmetrical.at
+CN=imap.symmetrical.com
 
 # E-mail contact
-emailAddress=postmaster@symmetrical.at
+emailAddress=postmaster@symmetrical.com
 
 [ cert_type ]
 nsCertType = server

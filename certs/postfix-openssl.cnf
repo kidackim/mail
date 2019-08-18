@@ -22,10 +22,10 @@ O=Postfix
 OU=SMTP server
 
 # Common Name (*.example.com is also possible)
-CN=smtp.symmetrical.at
+CN=smtp.symmetrical.com
 
 # E-mail contact
-emailAddress=postmaster@symmetrical.at
+emailAddress=postmaster@symmetrical.com
 
 [ cert_type ]
 nsCertType = server
