@@ -31,9 +31,9 @@ Ensure that the iptables firewall is not blocking any of the standard mail ports
 
 If you want to recieve email you have to configure DNS. Like this:
 ```
-example.com         MX      10      example.com
-example.com         MX      10      1.2.3.4
-mail.example.com    MX      10      1.2.3.4
+symmetrical.com         MX      10      symmetrical.com
+symmetrical.com         MX      10      1.2.3.4
+mail.symmetrical.com    MX      10      1.2.3.4
 ```
 
 ## Variables

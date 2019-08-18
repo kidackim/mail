@@ -3,7 +3,7 @@ smtpd_banner = $myhostname ESMTP $mail_name
 myhostname = postfix
 
 alias_maps =
-mydestination =
+mydestination = symmetrical.com
 relayhost =
 mailbox_size_limit =
 mynetworks = 127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
