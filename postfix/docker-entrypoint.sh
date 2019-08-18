@@ -36,7 +36,7 @@ sed -i "s/usrname/$USER_NAME/g" /etc/postfix/virtual_*
 sed -i "s/passwd/$USER_PASSWD/g" /etc/postfix/virtual_*
 
 # Update domain
-sed -i "s/example.com/$DOMAIN/g" /etc/postfix/main.cf
+sed -i "s/symmetrical.at/$DOMAIN/g" /etc/postfix/main.cf
 
 echo $DOMAIN
 
