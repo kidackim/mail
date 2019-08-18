@@ -22,10 +22,10 @@ O=Certification Center
 OU=Reg
 
 # Common Name (*.example.com is also possible)
-CN=reg.example.com
+CN=reg.symmetrical.at
 
 # E-mail contact
-emailAddress=register@example.com
+emailAddress=register@symmetrical.at
 
 [ cert_type ]
 nsCertType = server

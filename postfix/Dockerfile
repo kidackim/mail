@@ -2,7 +2,7 @@ FROM debian:stretch
 
 EXPOSE 25/tcp 465/tcp 587/tcp
 
-ENV MAILNAME mail.example.com
+ENV MAILNAME mail.symmetrical.at
 ENV MY_NETWORKS 172.16.0.0/15 192.168.0.0/16
 
 RUN apt-get update
