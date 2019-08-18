@@ -36,7 +36,7 @@ $CONF['configured'] = true;
 // To create the hash, visit setup.php in a browser and type a password into the field,
 // on submission it will be echoed out to you as a hashed value.
 // $CONF[setup_password] = 'epaigi2daar1choo5za2Eez0vooj2oof'; # Sample clear text password of encypted secret below
-$CONF['setup_password'] = '7a354a926e07172095ad0313cefe996e:fa7b00434fe2164725a803ff7a0bcc816ffeed69';
+$CONF['setup_password'] = '3332dfb5deed1e167d07c2b5d57903bd:f728c55bfcd6bfc4780c9d2b194c46c9f701a6e4';
 
 
 // Language config
