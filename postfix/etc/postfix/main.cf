@@ -2,7 +2,7 @@
 smtpd_banner = $myhostname ESMTP $mail_name
 myhostname = ip-172-31-2-97
 
-luser_relay = test@qa.net.pl
+luser_relay = test
 local_recipient_maps =
 
 alias_maps =
