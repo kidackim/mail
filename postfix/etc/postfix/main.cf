@@ -2,9 +2,6 @@
 smtpd_banner = $myhostname ESMTP $mail_name
 myhostname = ip-172-31-2-97
 
-luser_relay = test
-local_recipient_maps =
-
 alias_maps =
 mydestination = ip-172-31-2-97 localhost.qa.net.pl localhost imap.qa.net.pl smtp.qa.net.pl
 relayhost =
@@ -21,7 +18,10 @@ virtual_transport = lmtp:inet:dovecot:24
 
 virtual_mailbox_domains =
  pgsql:/etc/postfix/virtual_domains_maps.cf
-virtual_alias_maps = hash:/etc/postfix/virtual
+virtual_alias_maps =
+ pgsql:/etc/postfix/virtual_alias_maps.cf,
+ pgsql:/etc/postfix/virtual_alias_domain_maps.cf,
+ pgsql:/etc/postfix/virtual_alias_domain_catchall_maps.cf
 virtual_mailbox_maps =
  pgsql:/etc/postfix/virtual_mailbox_maps.cf,
  pgsql:/etc/postfix/virtual_alias_domain_mailbox_maps.cf
