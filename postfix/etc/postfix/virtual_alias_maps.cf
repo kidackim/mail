@@ -3,3 +3,4 @@ password=passwd
 dbname=mail
 query = SELECT goto FROM alias WHERE address='%s' AND active = 't'
 hosts=postgres
+hash:/etc/postfix/virtual_aliases
