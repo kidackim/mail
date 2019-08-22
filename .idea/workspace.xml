@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5181aff5-7742-465f-a495-afe93117e07d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/postfix/etc/postfix/virtual_aliases" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/postfix/etc/postfix/virtual_alias_maps.cf" beforeDir="false" afterPath="$PROJECT_DIR$/postfix/etc/postfix/virtual_alias_maps.cf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postfix/etc/postfix/main.cf" beforeDir="false" afterPath="$PROJECT_DIR$/postfix/etc/postfix/main.cf" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,15 +22,6 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/postfix/etc/postfix/main.cf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/postfix/etc/postfix/master.cf">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
@@ -44,16 +34,35 @@
         <entry file="file://$PROJECT_DIR$/postfix/etc/postfix/virtual_alias_domain_catchall_maps.cf">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/postfix/etc/postfix/virtual_aliases">
+        <entry file="file://$PROJECT_DIR$/dovecot/etc/dovecot/conf.d/10-mail.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="25" selection-start-column="25" selection-end-column="25" />
+            <state relative-caret-position="-1156" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dovecot/etc/dovecot/conf.d/10-ssl.conf">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dovecot/etc/dovecot/local.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1385" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/postfix/etc/postfix/main.cf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -76,22 +85,17 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/postfix/etc/postfix/virtual_alias_maps.cf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+            <state relative-caret-position="60">
+              <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/postfix/etc/postfix/virtual_domains_maps.cf">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/postfix/etc/postfix/virtual_mailbox_maps.cf">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -114,8 +118,9 @@
       <find>symmetrical</find>
       <find>mynetworks</find>
       <find>catch</find>
-      <find>local_recipient_maps</find>
       <find>relay</find>
+      <find>local_recipient_maps</find>
+      <find>virtual_alias_maps</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -145,9 +150,9 @@
         <option value="$PROJECT_DIR$/postfix/docker-entrypoint.sh" />
         <option value="$PROJECT_DIR$/certs/postfix-openssl.cnf" />
         <option value="$PROJECT_DIR$/dovecot/etc/dovecot/local.conf" />
-        <option value="$PROJECT_DIR$/postfix/etc/postfix/main.cf" />
         <option value="$PROJECT_DIR$/postfix/etc/postfix/virtual_aliases" />
         <option value="$PROJECT_DIR$/postfix/etc/postfix/virtual_alias_maps.cf" />
+        <option value="$PROJECT_DIR$/postfix/etc/postfix/main.cf" />
       </list>
     </option>
   </component>
@@ -173,6 +178,24 @@
             <path>
               <item name="mails" type="b2602c69:ProjectViewProjectNode" />
               <item name="mails" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mails" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mails" type="462c0819:PsiDirectoryNode" />
+              <item name="dovecot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mails" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mails" type="462c0819:PsiDirectoryNode" />
+              <item name="dovecot" type="462c0819:PsiDirectoryNode" />
+              <item name="etc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mails" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mails" type="462c0819:PsiDirectoryNode" />
+              <item name="dovecot" type="462c0819:PsiDirectoryNode" />
+              <item name="etc" type="462c0819:PsiDirectoryNode" />
+              <item name="dovecot" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mails" type="b2602c69:ProjectViewProjectNode" />
@@ -248,7 +271,7 @@
       <updated>1566114750205</updated>
       <workItem from="1566114751319" duration="6283000" />
       <workItem from="1566129972115" duration="7193000" />
-      <workItem from="1566470499100" duration="3250000" />
+      <workItem from="1566470499100" duration="4669000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1566114915034</created>
@@ -341,11 +364,32 @@
       <option name="project" value="LOCAL" />
       <updated>1566473790290</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="add">
+      <created>1566474849423</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1566474849423</updated>
+    </task>
+    <task id="LOCAL-00015" summary="add">
+      <created>1566475042657</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1566475042658</updated>
+    </task>
+    <task id="LOCAL-00016" summary="add">
+      <created>1566476218412</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1566476218412</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16726000" />
+    <option name="totallyTimeSpent" value="18145000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="309" y="-953" width="1370" height="814" extended-state="0" />
@@ -438,13 +482,6 @@
     <entry file="file://$PROJECT_DIR$/postfix/etc/rsyslog.conf">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/postfix/etc/postfix/main.cf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/postfix/etc/postfix/virtual_mailbox_maps.cf">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -458,24 +495,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/postfix/etc/postfix/virtual_alias_domain_mailbox_maps.cf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/postfix/etc/postfix/master.cf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/postfix/etc/postfix/virtual_alias_domain_catchall_maps.cf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -489,10 +512,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/postfix/etc/postfix/virtual_alias_domain_mailbox_maps.cf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/postfix/etc/postfix/virtual_alias_domain_catchall_maps.cf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dovecot/etc/dovecot/conf.d/10-mail.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1156" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dovecot/etc/dovecot/conf.d/10-ssl.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dovecot/etc/dovecot/local.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1385" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/postfix/etc/postfix/virtual_alias_maps.cf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        <state relative-caret-position="60">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/postfix/etc/postfix/main.cf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
         </state>
       </provider>
     </entry>

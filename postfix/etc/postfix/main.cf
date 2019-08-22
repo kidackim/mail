@@ -25,6 +25,7 @@ virtual_alias_maps =
  pgsql:/etc/postfix/virtual_alias_maps.cf,
  pgsql:/etc/postfix/virtual_alias_domain_maps.cf,
  pgsql:/etc/postfix/virtual_alias_domain_catchall_maps.cf
+ hash:/etc/postfix/virtual
 virtual_mailbox_maps =
  pgsql:/etc/postfix/virtual_mailbox_maps.cf,
  pgsql:/etc/postfix/virtual_alias_domain_mailbox_maps.cf
