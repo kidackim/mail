@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Update openssl cnf files
-sed -i "s/symmetrical.com/$DOMAIN/g" /*.cnf
+sed -i "s/qa.net.pl/$DOMAIN/g" /*.cnf
 
 CA_CRT="ca/ca.crt"
 CA_KEY="private/ca.key"

@@ -127,7 +127,7 @@ $CONF['database_tables'] = array (
 // This will be used to send emails from to create mailboxes and
 // from Send Email / Broadcast message pages.
 // Leave blank to send email from the logged-in Admin's Email address.
-$CONF['admin_email'] = 'admin@symmetrical.com';
+$CONF['admin_email'] = 'admin@sqa.net.pl';
 
 // Mail Server
 // Hostname (FQDN) of your mail server.
@@ -207,10 +207,10 @@ $CONF['page_size'] = '10';
 // a) a full mail address
 // b) only a localpart ('postmaster' => 'admin') - the alias target will point to the same domain
 $CONF['default_aliases'] = array (
-    'abuse' => 'abuse@symmetrical.com',
-    'hostmaster' => 'hostmaster@symmetrical.com',
-    'postmaster' => 'postmaster@symmetrical.com',
-    'webmaster' => 'webmaster@symmetrical.com'
+    'abuse' => 'abuse@qa.net.pl',
+    'hostmaster' => 'hostmaster@qa.net.pl',
+    'postmaster' => 'postmaster@qa.net.pl',
+    'webmaster' => 'webmaster@qa.net.pl'
 );
 
 // Mailboxes
@@ -342,7 +342,7 @@ $CONF['vacation'] = 'NO';
 // transport maps to handle virtual vacations. It does not need to be a
 // real domain (i.e. you don't need to setup DNS for it).
 // This domain must exclusively be used for vacation. Do NOT use it for "normal" mail addresses.
-$CONF['vacation_domain'] = 'autoreply.symmetrical.com';
+$CONF['vacation_domain'] = 'autoreply.qa.net.pl';
 
 // Vacation Control
 // If you want users to take control of vacation set this to 'YES'.
@@ -429,8 +429,8 @@ $CONF['header_text'] = ':: Postfix Admin ::';
 // Below information will be on all pages.
 // If you don't want the footer information to appear set this to 'NO'.
 $CONF['show_footer_text'] = 'YES';
-$CONF['footer_text'] = 'Return to symmetrical.com';
-$CONF['footer_link'] = 'http://symmetrical.ai';
+$CONF['footer_text'] = 'Return to qa.net.pl';
+$CONF['footer_link'] = 'http://qa.net.pl';
 
 // MOTD ("Motto of the day")
 // You can display a MOTD below the menu on all pages.
