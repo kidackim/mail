@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5181aff5-7742-465f-a495-afe93117e07d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/postfix/etc/postfix/main.cf" beforeDir="false" afterPath="$PROJECT_DIR$/postfix/etc/postfix/main.cf" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,23 +60,19 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/postfix/etc/postfix/main.cf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+            <state relative-caret-position="161">
+              <caret line="27" column="18" lean-forward="true" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/postfix/etc/postfix/virtual">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/postfix/etc/postfix/virtual_alias_domain_mailbox_maps.cf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/postfix/etc/postfix/virtual_alias_domain_maps.cf">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="5" selection-start-line="5" selection-end-line="5" />
@@ -92,11 +87,6 @@
               <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/postfix/etc/postfix/virtual_domains_maps.cf">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -119,8 +109,8 @@
       <find>mynetworks</find>
       <find>catch</find>
       <find>relay</find>
-      <find>local_recipient_maps</find>
       <find>virtual_alias_maps</find>
+      <find>local_recipient_maps</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -271,7 +261,7 @@
       <updated>1566114750205</updated>
       <workItem from="1566114751319" duration="6283000" />
       <workItem from="1566129972115" duration="7193000" />
-      <workItem from="1566470499100" duration="4669000" />
+      <workItem from="1566470499100" duration="5382000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1566114915034</created>
@@ -385,11 +375,25 @@
       <option name="project" value="LOCAL" />
       <updated>1566476218412</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="add">
+      <created>1566476674141</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1566476674141</updated>
+    </task>
+    <task id="LOCAL-00018" summary="add">
+      <created>1566479588107</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1566479588107</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18145000" />
+    <option name="totallyTimeSpent" value="18858000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="309" y="-953" width="1370" height="814" extended-state="0" />
@@ -539,6 +543,12 @@
         <state relative-caret-position="-1385" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/postfix/etc/postfix/virtual.db">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/postfix/etc/postfix/virtual">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/postfix/etc/postfix/virtual_alias_maps.cf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -548,8 +558,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/postfix/etc/postfix/main.cf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+        <state relative-caret-position="161">
+          <caret line="27" column="18" lean-forward="true" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
         </state>
       </provider>
     </entry>
