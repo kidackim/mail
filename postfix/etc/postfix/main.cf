@@ -61,3 +61,16 @@ broken_sasl_auth_clients = yes
 smtpd_delay_reject = yes
 smtpd_sender_login_maps = $virtual_alias_maps
 smtpd_helo_required = yes
+
+# SMTP restrictions
+
+smtpd_sender_restrictions =
+       permit_mynetworks,
+       permit_sasl_authenticated,
+       permit
+
+smtpd_recipient_restrictions =
+       permit_mynetworks,
+       permit_sasl_authenticated,
+       permit_auth_destination,
+       permit
